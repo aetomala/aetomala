@@ -23,6 +23,7 @@ I maintain my Go fundamentals through focused practice projects:
 
 - **[fileprocessor](https://github.com/aetomala/fileprocessor)** - Exploring worker pool patterns and bounded parallelism (30+ tests)
 - **[lastmodstore](https://github.com/aetomala/lastmodstore)** - Thread-safe TTL cache with graceful shutdown (67 tests)
+- **[gstorage](https://github.com/aetomala/gstorage)** - File and directory operations library (62 tests)
 
 All projects include comprehensive test suites, race detection, and CI/CD pipelines.
 
