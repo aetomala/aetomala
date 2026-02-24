@@ -2,7 +2,7 @@
 
 **Senior Platform Engineer** | Distributed Systems | Go | 28 Years Building Production Software
 
-I build reliable, observable systems that scale. Currently focusing on authentication infrastructure, distributed systems patterns, and production-grade Go libraries.
+I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations. Currently building authentication infrastructure and exploring observability patterns in Go.
 
 ## 🔧 What I'm Working On
 
@@ -12,18 +12,19 @@ Zero-downtime key rotation, observability-first design, built for distributed sy
 
 ## 💡 Technical Focus
 
-- **Distributed Systems**: Authentication, caching, concurrent processing
-- **Observability**: Structured logging, metrics integration, distributed tracing
-- **Production Patterns**: Graceful shutdown, zero-downtime deployments, circuit breakers
-- **Languages**: Go, Python, Java, Node.js
+- **Platform Engineering**: Kubernetes infrastructure, multi-tenant platforms, container orchestration
+- **Integration Architecture**: Distributed systems, API design, service provider onboarding
+- **Observability & Operations**: Prometheus/Grafana, SLIs/SLOs, automation-first reliability
+- **Infrastructure**: Terraform, CI/CD pipelines, secrets management, database operations
+- **Languages**: Go (primary), Java, Node.js, Python (scripting)
 
-## 📚 Practice & Learning
+## 📚 Continuous Practice
 
-I explore production Go patterns through focused implementations:
+I explore production Go patterns through focused projects:
 
-- **[fileprocessor](https://github.com/aetomala/fileprocessor)** - Exploring worker pool patterns and bounded parallelism (30+ tests)
+- **[fileprocessor](https://github.com/aetomala/fileprocessor)** - Worker pool patterns and bounded parallelism (30+ tests)
 - **[lastmodstore](https://github.com/aetomala/lastmodstore)** - Thread-safe TTL cache with graceful shutdown (67 tests)
-- **[gstorage](https://github.com/aetomala/gstorage)** - File and directory operations library (62 tests)
+- **[gstorage](https://github.com/aetomala/gstorage)** - Concurrent file operations and worker pools (62 tests)
 
 All projects include comprehensive test suites, race detection, and CI/CD pipelines.
 
@@ -40,7 +41,7 @@ All projects include comprehensive test suites, race detection, and CI/CD pipeli
 
 - **GitHub**: You're already here!
 - **LinkedIn**: [linkedin.com/in/angel-tomala-reyes](https://www.linkedin.com/in/angel-tomala-reyes/)
-- **Email**: angel.tomala.reyes@gmail.com
+- **Email**: [angel.tomala.reyes@gmail.com](mailto:angel.tomala.reyes@gmail.com)
 
 ---
 
