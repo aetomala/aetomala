@@ -15,7 +15,7 @@ Zero-downtime key rotation, observability-first design, built for distributed sy
 - **Distributed Systems**: Authentication, caching, concurrent processing
 - **Observability**: Structured logging, metrics integration, distributed tracing
 - **Production Patterns**: Graceful shutdown, zero-downtime deployments, circuit breakers
-- **Languages**: Go, Phyton, Java, Node.js
+- **Languages**: Go, Python, Java, Node.js
 
 ## 📚 Practice & Learning
 
