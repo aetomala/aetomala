@@ -19,7 +19,7 @@ Zero-downtime key rotation, observability-first design, built for distributed sy
 
 ## 📚 Practice & Learning
 
-I maintain my Go fundamentals through focused practice projects:
+I explore production Go patterns through focused implementations:
 
 - **[fileprocessor](https://github.com/aetomala/fileprocessor)** - Exploring worker pool patterns and bounded parallelism (30+ tests)
 - **[lastmodstore](https://github.com/aetomala/lastmodstore)** - Thread-safe TTL cache with graceful shutdown (67 tests)
