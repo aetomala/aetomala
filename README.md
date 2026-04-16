@@ -6,8 +6,10 @@ I architect platform infrastructure from 0→1, scaling systems from prototype t
 
 ## 🔧 What I'm Working On
 
-**[jwtauth](https://github.com/aetomala/jwtauth)** - production-grade JWT authorization token engine for Go. Manages cryptographic key generation and zero-downtime rotation, access token issuance and validation, and refresh token lifecycle with revocation support. Pluggable storage backends (memory, disk, Redis). Fully observable with Prometheus metrics, structured logging with correlation IDs, and distributed tracing. Designed as the engine layer of an authorization server — identity verification is intentionally out of scope.  
-`Go` `JWT` `Security` `Observability` `SOLID Principles`
+**[jwtauth](https://github.com/aetomala/jwtauth)** - Stateful JWT authorization token engine for Go with zero-downtime key rotation and instant revocation. Production-ready with pluggable storage backends (Redis, Postgres, in-memory), comprehensive observability (Prometheus metrics, structured logging), and complete documentation including migration guides and ADRs. Built for distributed systems from day one.  
+`Go` `Security` `Distributed Systems` `Platform Engineering` `Observability`
+
+*Recent: Comprehensive documentation overhaul complete — migration guides, architecture decision records, and visual diagrams*
 
 
 ## 💡 Technical Focus
