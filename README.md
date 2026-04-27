@@ -1,13 +1,13 @@
 # Hi, I'm Angel 👋
 
-**Senior Platform Engineer** | Distributed Systems | Go | 28 Years Building Production Software
+**Senior Platform Engineer** | Distributed Systems | Go | 0→1 Builder
 
-I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations. Currently building authentication infrastructure and exploring observability patterns in Go.
+I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations. Currently building distributed systems tooling in Go — focusing on observability patterns and infrastructure lifecycle management.
 
 ## 🔧 What I'm Working On
 
 **[jwtauth](https://github.com/aetomala/jwtauth)** - Stateful JWT authorization token engine for Go with zero-downtime key rotation and instant revocation. Production-ready with pluggable storage backends (Redis, Postgres, in-memory), comprehensive observability (Prometheus metrics, structured logging), and complete documentation including migration guides and ADRs. Built for distributed systems from day one.  
-`Go` `Security` `Distributed Systems` `Platform Engineering` `Observability`
+`Go` `Distributed Systems` `Platform Engineering` `Observability` `Security`
 
 *Recent: Comprehensive documentation overhaul complete — migration guides, architecture decision records, and visual diagrams*
 
