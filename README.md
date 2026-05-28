@@ -11,7 +11,7 @@ I architect platform infrastructure from 0→1, scaling systems from prototype t
 
 *Recent: Comprehensive documentation overhaul complete — migration guides, architecture decision records, and visual diagrams*
 
-**token-engine (in development)** — A production-grade gRPC microservice that operationalizes `jwtauth` as a network service. Multi-tenant token issuance, refresh, and revocation over gRPC — with full OpenTelemetry instrumentation, Redis-backed distributed state, and an architecture designed for zero-downtime key rotation at scale. Where `jwtauth` solves the library problem, `token-engine` solves the deployment problem.
+**[token-engine](https://github.com/aetomala/token-engine)** — A production-grade gRPC microservice that operationalizes `jwtauth` as a network service. Multi-tenant token issuance, refresh, and revocation over gRPC — with full OpenTelemetry instrumentation, Redis-backed distributed state, and an architecture designed for zero-downtime key rotation at scale. Where `jwtauth` solves the library problem, `token-engine` solves the deployment problem.
 `Go` `gRPC` `Redis` `OpenTelemetry` `Kubernetes`
 
 ## 💡 Technical Focus
