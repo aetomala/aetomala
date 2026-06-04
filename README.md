@@ -6,13 +6,13 @@ I architect platform infrastructure from 0→1, scaling systems from prototype t
 
 ## 🔧 What I'm Working On
 
-**[jwtauth](https://github.com/aetomala/jwtauth)** - Production-grade token lifecycle management for distributed Go services. Pluggable storage backends (Redis, Postgres, in-memory), zero-downtime key rotation, instant revocation, and 22 Prometheus metrics built in from day one. The hard problems here aren't the auth primitives — they're distributed state management, horizontal scale, and operational observability.  
-`Go` `Distributed Systems` `Platform Engineering` `Observability` `Security`
+**[jwtauth](https://github.com/aetomala/jwtauth)** - Stateful JWT authorization engine for Go. Most JWT libraries handle issuance and validation. jwtauth handles the part that comes after: token state management, key rotation, refresh lifecycle, and the operational observability to run it in production. Pluggable backends, structured logging, Prometheus metrics, and OpenTelemetry tracing — all wired in at construction. v1.0.0 stable.  
+`Go` `Platform Engineering` `Distributed Systems` `Observability`
 
 *Recent: Comprehensive documentation overhaul complete — migration guides, architecture decision records, and visual diagrams*
 
-**[token-engine](https://github.com/aetomala/token-engine)** — A production-grade gRPC microservice that operationalizes `jwtauth` as a network service. Multi-tenant token issuance, refresh, and revocation over gRPC — with full OpenTelemetry instrumentation, Redis-backed distributed state, and an architecture designed for zero-downtime key rotation at scale. Where `jwtauth` solves the library problem, `token-engine` solves the deployment problem.
-`Go` `gRPC` `Redis` `OpenTelemetry` `Kubernetes`
+**[token-engine](https://github.com/aetomala/token-engine)** — A production-grade gRPC microservice that operationalizes jwtauth as a network service. Multi-tenant token lifecycle management over gRPC — with a six-interceptor chain, full OpenTelemetry instrumentation, Redis-backed distributed state, and zero-downtime key rotation at scale. Where jwtauth solves the library problem, token-engine solves the deployment problem.
+`Go` `gRPC` `Microservices` `OpenTelemetry` `Kubernetes`
 
 ## 💡 Technical Focus
 
