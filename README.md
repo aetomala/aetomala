@@ -1,8 +1,9 @@
 # Hi, I'm Angel 👋
-
 **Senior Platform Engineer** | Distributed Systems | Go | 0→1 Builder
 
-I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations. Currently building distributed systems tooling in Go — focusing on observability patterns and infrastructure lifecycle management.
+I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations.
+
+On my own time, I look for infrastructure gaps that most teams hit and few solve properly — then build the primitive and write through the design decisions in public.
 
 ## 🔧 What I'm Working On
 
@@ -12,11 +13,14 @@ I architect platform infrastructure from 0→1, scaling systems from prototype t
 **[token-engine](https://github.com/aetomala/token-engine)** — A production-grade gRPC microservice that operationalizes jwtauth as a network service. Multi-tenant token lifecycle management over gRPC — with a six-interceptor chain, full OpenTelemetry instrumentation, Redis-backed distributed state, and zero-downtime key rotation at scale. Where jwtauth solves the library problem, token-engine solves the deployment problem.  
 `Go` `gRPC` `Microservices` `OpenTelemetry` `Kubernetes`
 
-**[worklease](https://github.com/aetomala/worklease)** — A Go library for lease-based work coordination in distributed systems. Most locking primitives answer who owns a resource. worklease answers what the next owner needs to continue the work the previous owner started — checkpoint state, fencing tokens, and clean handoff vs crash recovery, built on a single atomic backend operation. Where distributed locks solve presence, worklease solves continuity.  
+📖 *Both projects are covered in a three-part series, [JWT as Infrastructure](https://medium.com/@angel.tomala.reyes/the-authentication-gap-what-happens-after-you-prove-who-you-are-9665ceede1ba), on Level Up Coding.*
+
+**[worklease](https://github.com/aetomala/worklease)** — A Go library for lease-based work coordination in distributed systems. Most locking primitives answer who owns a resource. worklease answers what the next owner needs to continue the work the previous owner started — checkpoint state, fencing tokens, and clean handoff vs crash recovery, built on a single atomic backend operation. Where distributed locks solve presence, worklease solves continuity. v0.2.0.  
 `Go` `Platform Engineering` `Distributed Systems` `PostgreSQL`
 
-## 💡 Technical Focus
+📖 *Companion article series in progress.*
 
+## 💡 Technical Focus
 - **Platform Engineering**: Kubernetes infrastructure, multi-tenant platforms, container orchestration
 - **Integration Architecture**: Distributed systems, API design, service provider onboarding
 - **Observability & Operations**: Prometheus/Grafana, SLIs/SLOs, automation-first reliability
@@ -24,9 +28,7 @@ I architect platform infrastructure from 0→1, scaling systems from prototype t
 - **Languages**: Go (primary), Java, Node.js, Python (scripting)
 
 ## 📚 Continuous Practice
-
 I explore production Go patterns through focused projects:
-
 - **[fileprocessor](https://github.com/aetomala/fileprocessor)** - Worker pool patterns and bounded parallelism (30+ tests)
 - **[lastmodstore](https://github.com/aetomala/lastmodstore)** - Thread-safe TTL cache with graceful shutdown (67 tests)
 - **[gstorage](https://github.com/aetomala/gstorage)** - Concurrent file operations and worker pools (62 tests)
@@ -34,7 +36,6 @@ I explore production Go patterns through focused projects:
 All projects include comprehensive test suites, race detection, and CI/CD pipelines.
 
 ## 🎯 Engineering Philosophy
-
 **Good software is observable, testable, and maintainable.** I design systems with these properties as first-class concerns, not afterthoughts.
 
 - Write tests first, watch them fail, make them pass
@@ -43,11 +44,9 @@ All projects include comprehensive test suites, race detection, and CI/CD pipeli
 - Production code needs graceful shutdown, proper error handling, and clear lifecycle management
 
 ## 📫 Let's Connect
-
 - **GitHub**: You're already here!
 - **LinkedIn**: [linkedin.com/in/angel-tomala-reyes](https://www.linkedin.com/in/angel-tomala-reyes/)
 - **Email**: [angel.tomala.reyes@gmail.com](mailto:angel.tomala.reyes@gmail.com)
 
 ---
-
 *Building systems that work when it matters.*
