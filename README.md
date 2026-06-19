@@ -18,7 +18,7 @@ On my own time, I look for infrastructure gaps that most teams hit and few solve
 **[worklease](https://github.com/aetomala/worklease)** — A Go library for lease-based work coordination in distributed systems. Most locking primitives answer who owns a resource. worklease answers what the next owner needs to continue the work the previous owner started — checkpoint state, fencing tokens, and clean handoff vs crash recovery, built on a single atomic backend operation. Where distributed locks solve presence, worklease solves continuity. v0.4.0.  
 `Go` `Platform Engineering` `Distributed Systems` `PostgreSQL`
 
-📖 *Covered in a series, [Distributed Locks Don't Coordinate Work](https://medium.com/gitconnected/distributed-locks-dont-coordinate-work-c6251135176d), on Level Up Coding. Parts 1 and 2 published.*
+📖 *Covered in a series, [Distributed Locks Don't Coordinate Work](https://medium.com/gitconnected/distributed-locks-dont-coordinate-work-c6251135176d), on Level Up Coding.*
 
 ## 💡 Technical Focus
 - **Platform Engineering**: Kubernetes infrastructure, multi-tenant platforms, container orchestration
