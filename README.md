@@ -3,9 +3,10 @@
 
 I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations.
 
-On my own time, I look for infrastructure gaps that most teams hit and few solve properly — then build the primitive and write through the design decisions in public.
+On my own time, I look for infrastructure gaps that most teams hit and few solve properly — then build the primitive and write through the design decisions in public. Right now I'm bringing worklease to a stable 1.0 before starting anything new.
 
-## 🔧 What I'm Working On
+
+## 🔧 Projects
 
 **[jwtauth](https://github.com/aetomala/jwtauth)** — Stateful JWT authorization engine for Go. Most JWT libraries handle issuance and validation. jwtauth handles the part that comes after: token state management, key rotation, refresh lifecycle, and the operational observability to run it in production. Pluggable backends, structured logging, Prometheus metrics, and OpenTelemetry tracing — all wired in at construction. v1.0.0 stable.  
 `Go` `Platform Engineering` `Distributed Systems` `Observability`
