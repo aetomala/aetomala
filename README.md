@@ -11,7 +11,7 @@ On my own time, I look for infrastructure gaps that most teams hit and few solve
 **[jwtauth](https://github.com/aetomala/jwtauth)** — Stateful JWT authorization engine for Go. Most JWT libraries handle issuance and validation. jwtauth handles the part that comes after: token state management, key rotation, refresh lifecycle, and the operational observability to run it in production. Pluggable backends, structured logging, Prometheus metrics, and OpenTelemetry tracing — all wired in at construction. v1.1.0 stable.  
 `Go` `Platform Engineering` `Distributed Systems` `Observability`
 
-**[token-engine](https://github.com/aetomala/token-engine)** — A production-grade gRPC microservice that operationalizes jwtauth as a network service. Multi-tenant token lifecycle management over gRPC — with a six-interceptor chain, full OpenTelemetry instrumentation, Redis-backed distributed state, and zero-downtime key rotation at scale. Where jwtauth solves the library problem, token-engine solves the deployment problem. v1.0.0 stable.
+**[token-engine](https://github.com/aetomala/token-engine)** — A production-grade gRPC microservice that operationalizes jwtauth as a network service. Multi-tenant token lifecycle management over gRPC — with a six-interceptor chain, full OpenTelemetry instrumentation, Redis-backed distributed state, and zero-downtime key rotation at scale. Where jwtauth solves the library problem, token-engine solves the deployment problem. v1.1.0 stable.
 `Go` `gRPC` `Microservices` `OpenTelemetry` `Kubernetes`
 
 📖 *Both projects are covered in a three-part series, [JWT as Infrastructure](https://medium.com/@angel.tomala.reyes/the-authentication-gap-what-happens-after-you-prove-who-you-are-9665ceede1ba), on Level Up Coding.*
