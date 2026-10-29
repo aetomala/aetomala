@@ -3,7 +3,7 @@
 
 I architect platform infrastructure from 0→1, scaling systems from prototype to production. Deep experience in Kubernetes, distributed systems, integration architecture, and production operations.
 
-On my own time, I look for infrastructure gaps that most teams hit and few solve properly — then build the primitive and write through the design decisions in public. Right now I'm bringing worklease to a stable 1.0 before starting anything new.
+On my own time, I look for infrastructure gaps that most teams hit and few solve properly — then build the primitive and write through the design decisions in public. worklease is now at 1.0, and I've written up what that does and doesn't promise.
 
 
 ## 🔧 Projects
@@ -18,10 +18,12 @@ On my own time, I look for infrastructure gaps that most teams hit and few solve
 
 📖 *Plus a standalone follow-up — [After the Design: What Operating Token Infrastructure Actually Costs](https://levelup.gitconnected.com/after-the-design-what-operating-token-infrastructure-actually-costs-aec35e6b53ec) — on what shipped after the design did.*
 
-**[worklease](https://github.com/aetomala/worklease)** — A Go library for lease-based work coordination in distributed systems. Most locking primitives answer who owns a resource. worklease answers what the next owner needs to continue the work the previous owner started — checkpoint state, fencing tokens, and clean handoff vs crash recovery, built on a single atomic backend operation. Where distributed locks solve presence, worklease solves continuity. v1.0.1 stable.  
+**[worklease](https://github.com/aetomala/worklease)** — A Go library for lease-based work coordination in distributed systems. Most locking primitives answer who owns a resource. worklease answers what the next owner needs to continue the work the previous owner started — checkpoint state, fencing tokens, and clean handoff vs crash recovery, built on a single atomic backend operation. Where distributed locks solve presence, worklease solves continuity. v1.0.1 — API-stable, not yet run in production.
 `Go` `Platform Engineering` `Distributed Systems` `PostgreSQL`
 
 📖 *Covered in a three-part series, [Distributed Locks Don't Coordinate Work](https://medium.com/gitconnected/distributed-locks-dont-coordinate-work-c6251135176d), on Level Up Coding.*
+
+📖 *Plus a standalone follow-up — [What a 1.0 Can Honestly Promise](https://medium.com/gitconnected/what-a-1-0-can-honestly-promise-487e73bff945) — on what turned up when the library met a real database, a drifting clock, and a call that never returned.*
 
 ## 💡 Technical Focus
 - **Platform Engineering**: Kubernetes infrastructure, multi-tenant platforms, container orchestration
@@ -42,6 +44,7 @@ All projects include comprehensive test suites, race detection, and CI/CD pipeli
 **Good software is observable, testable, and maintainable.** I design systems with these properties as first-class concerns, not afterthoughts.
 
 - Write tests first, watch them fail, make them pass
+- A test double should be as hard on the code as the real dependency
 - Observability isn't optional - log, measure, trace everything
 - Simple solutions that handle edge cases beat complex solutions that don't
 - Production code needs graceful shutdown, proper error handling, and clear lifecycle management
